@@ -33,6 +33,6 @@ export const showHelp = (): void => {
         ${pc.bold("Examples:")}
             ${pc.dim("$")} npm create dialca-express my-api
             ${pc.dim("$")} npm create dialca-express my-api --ts --arch screaming
-            ${pc.dim("$")} npm create dialca-express my-api --ts --arch hexagonal --db postgres --orm prisma --auth jwt
+            ${pc.dim("$")} npm create dialca-express my-api --ts --arch hexagonal --db postgresql --orm prisma --auth jwt
         `);
 };
